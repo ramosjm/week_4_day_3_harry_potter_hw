@@ -9,6 +9,11 @@ li{
 }
 p{
   font-family: garamond, serif;
+  font-weight: bold;
+}
+hr{
+  position:relative;
+  bottom:50px;
 }
 img{
   position:relative;
