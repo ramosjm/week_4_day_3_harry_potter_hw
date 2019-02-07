@@ -1,0 +1,7 @@
+<% @students.each do |student| %>
+  <p>Name: <%= student.full_name() %></p>
+  <p>House: <%= student.find_house.name %></p>
+  <p>Age: <%= student.age %> </p>
+  <P><img src="<%=student.find_house.logo%>" alt="logo"></p>
+  <hr />
+<% end %>
